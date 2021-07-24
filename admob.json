@@ -16,7 +16,7 @@
     }
   ],
   "priorities": [
-   "FACEBOOK",
-    "GOOGLE"
+   "GOOGLE",
+   "FACEBOOK"
   ]
 }
