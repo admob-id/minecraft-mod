@@ -1,5 +1,5 @@
 {
-  "timeShowAds": 30,
+  "timeShowAds": 36,
   "timeShowAdsOpenApp": 120000,
   "adsmodel": [
     {
@@ -10,9 +10,19 @@
       "rewared": "ca-app-pub-3940256099942544/5224354917",
       "openApp":"ca-app-pub-5094379323096711/9181208726",
       "isShowAds": true
+    },
+    {
+      "priority": "FACEBOOK",
+      "inter": "YOUR_PLACEMENT_ID",
+      "banner": "YOUR_PLACEMENT_ID",
+      "native": "YOUR_PLACEMENT_ID",
+      "rewared": "YOUR_PLACEMENT_ID",
+      "openApp":"YOUR_PLACEMENT_ID",
+      "isShowAds": false
     }
   ],
-  "priorities": ["GOOGLE"],
+  "priorities": ["GOOGLE", "FACEBOOK"],
+  "product": [],
   "apps": [
     {
       "packageName": "com.minecrafts.addons.skins.textture",
